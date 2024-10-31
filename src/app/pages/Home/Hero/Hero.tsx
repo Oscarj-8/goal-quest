@@ -8,7 +8,7 @@ import { ChevronRight } from "lucide-react";
 
 const Hero = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center">
+    <main className="flex flex-col items-center justify-center mt-10">
       <GridPattern
         squares={[
           [4, 4],
@@ -29,7 +29,7 @@ const Hero = () => {
           "inset-x-0 inset-y-[-24%] h-[100%] skew-y-12"
         )}
       />
-      <section className="container flex flex-col gap-4 items-center z-50 -mt-24 p-4">
+      <section className="container flex flex-col gap-4 items-center z-40 -mt-24 p-4">
         <AnimatedGradientText>
           🎉 <hr className="mx-2 h-4 w-px shrink-0 bg-gray-300" />{" "}
           <span
