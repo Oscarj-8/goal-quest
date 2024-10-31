@@ -8,7 +8,7 @@ import { ChevronRight } from "lucide-react";
 
 const Home = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center">
+    <main className="flex min-h-screen flex-col items-center justify-center font-geist">
       <GridPattern
         squares={[
           [4, 4],
