@@ -57,7 +57,9 @@ const Navbar = () => {
         <nav className="hidden justify-between lg:flex">
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-2">
-              <h1 className="text-xl font-bold">GoalQuest</h1>
+              <h1 className="text-xl font-bold">
+                <Link href="/"> GoalQuest</Link>
+              </h1>
             </div>
             <div className="flex items-center">
               <Link
@@ -134,7 +136,10 @@ const Navbar = () => {
             </div>
           </div>
           <div className="flex gap-2">
-            <Button variant={"outline"}>Log in</Button>
+            <Button variant={"outline"}>
+              {" "}
+              <Link href="/login">Log in</Link>{" "}
+            </Button>
             <Button>Sign up</Button>
           </div>
         </nav>
