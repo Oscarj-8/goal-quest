@@ -5,10 +5,11 @@ import { RainbowButton } from "@/components/ui/rainbow-button";
 import GradualSpacing from "@/components/ui/gradual-spacing";
 import AnimatedGradientText from "@/components/ui/animated-gradient-text";
 import { ChevronRight } from "lucide-react";
+import Link from "next/link";
 
 const Hero = () => {
   return (
-    <main className="flex flex-col items-center justify-center mt-10">
+    <main className="flex flex-col items-center justify-center pt-28">
       <GridPattern
         squares={[
           [4, 4],
@@ -16,13 +17,13 @@ const Hero = () => {
           [8, 2],
           [5, 3],
           [5, 5],
-          [10, 10],
-          [12, 15],
-          [15, 10],
-          [10, 15],
-          [15, 10],
-          [10, 15],
-          [15, 10],
+          [10, 11],
+          [13, 15],
+          [16, 19],
+          [14, 17],
+          [18, 20],
+          [21, 22],
+          [23, 124],
         ]}
         className={cn(
           "[mask-image:radial-gradient(600px_circle_at_center,white,transparent)]",
@@ -54,7 +55,9 @@ const Hero = () => {
           and reminders—all in one simple, open-source platform. Get started and
           watch your journey unfold!
         </p>
-        <RainbowButton className="w-fit rounded-md">Get Started</RainbowButton>
+        <RainbowButton className="w-fit rounded-md">
+          <Link href="/login">Get Started</Link>
+        </RainbowButton>
       </section>
     </main>
   );

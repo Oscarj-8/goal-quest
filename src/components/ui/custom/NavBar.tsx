@@ -68,7 +68,7 @@ const Navbar = () => {
                     variant: "ghost",
                   })
                 )}
-                href="#"
+                href="/"
               >
                 Home
               </Link>
