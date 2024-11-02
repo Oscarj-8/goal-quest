@@ -88,7 +88,7 @@ const Login = () => {
       <div className="mx-auto flex gap-1 text-sm">
         <p>Don&apos;t have an account yet?</p>
         <Link href="#" className="underline">
-          Log in
+          Sign up
         </Link>
       </div>
     </div>
